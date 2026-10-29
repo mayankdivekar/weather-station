@@ -1,0 +1,63 @@
+
+[
+  {
+    "temperature": 30,
+    "humidity": 65,
+    "status": "Sunny",
+    "timestamp": "2026-10-27T08:00:00Z"
+  },
+  {
+    "temperature": 28,
+    "humidity": 70,
+    "status": "Partly Cloudy",
+    "timestamp": "2026-10-27T09:00:00Z"
+  },
+  {
+    "temperature": 26,
+    "humidity": 78,
+    "status": "Cloudy",
+    "timestamp": "2026-10-27T10:00:00Z"
+  },
+  {
+    "temperature": 24,
+    "humidity": 85,
+    "status": "Rainy",
+    "timestamp": "2026-10-27T11:00:00Z"
+  },
+  {
+    "temperature": 27,
+    "humidity": 72,
+    "status": "Windy",
+    "timestamp": "2026-10-27T12:00:00Z"
+  },
+  {
+    "temperature": 31,
+    "humidity": 60,
+    "status": "Hot",
+    "timestamp": "2026-10-27T13:00:00Z"
+  },
+  {
+    "temperature": 29,
+    "humidity": 68,
+    "status": "Partly Cloudy",
+    "timestamp": "2026-10-27T14:00:00Z"
+  },
+  {
+    "temperature": 25,
+    "humidity": 82,
+    "status": "Rainy",
+    "timestamp": "2026-10-27T15:00:00Z"
+  },
+  {
+    "temperature": 23,
+    "humidity": 88,
+    "status": "Foggy",
+    "timestamp": "2026-10-27T16:00:00Z"
+  },
+  {
+    "temperature": 28,
+    "humidity": 66,
+    "status": "Clear",
+    "timestamp": "2026-10-27T17:00:00Z"
+  }
+]
