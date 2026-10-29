@@ -1,14 +1,14 @@
+
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 
 const app = express();
 app.use(express.json());
-
-// Line added to serve your HTML and CSS files automatically
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost:27017/weatherDB')
-  .then(() => console.log('Connected to MongoDB successfully!'))
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log('Connected to MongoDB Atlas successfully!'))
   .catch(err => console.error('Database connection error:', err));
 
 const weatherSchema = new mongoose.Schema({
@@ -44,7 +44,7 @@ app.get('/weather/now', async (req, res) => {
   }
 });
 
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
 });
